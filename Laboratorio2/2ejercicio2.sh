@@ -38,7 +38,7 @@ done
 # 8. "set grid" cuadricula la grafica.
 # 9. "plot" se usa para extraer los datos guardados en columnas en "ar.log" y "axes x1y2" indica que esos datos son para que el segundo eje de "y".
 
-cat > "grafica.gnuplot" <<EOF 
+cat > "grafica.gnuplot" <<EOF
 set terminal jpeg
 set output "grafica.jpeg" 
 set title "Uso de CPU y RAM"
@@ -50,7 +50,8 @@ set y2tics
 set grid
 plot "ar.log" using 1:2 title "CPU" with lines, \
      "ar.log" using 1:3 title "RAM" with lines axes x1y2
-EOF # marca el final.
+EOF
+ 
 
 
-gnuplot "grafica.gnuplot" # se ejecuta gnuplot con el archivo de configuracion.
+gnuplot "grafica.gnuplot" 
