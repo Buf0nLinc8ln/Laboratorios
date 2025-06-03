@@ -111,4 +111,4 @@ int main() {
     //          agregar valor de elemento de matriz a suma con "+="
     //          disminuir en 1 a j con "-="
     //  imprimir resultado de suma
-// fin
+// fin.
