@@ -181,7 +181,7 @@ int main() {
 //      definir el tamano de la secuencia
 //      imprimir la secuencia
 //      retornar 0
-// fin.
+// fin
 
 
 
