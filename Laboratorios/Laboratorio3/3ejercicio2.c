@@ -23,4 +23,4 @@ int main() {
     int maximo = encontrarMaximo (numeros, n);
     printf("El numero mas grande es: %d\n", maximo);
     return 0;
-}
+}.
